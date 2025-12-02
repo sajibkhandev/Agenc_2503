@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from './layouts/Navbar'
+import Banner from './layouts/Banner'
 
 
 const App = () => {
   return (
     <div>
-      <h1>All Component done</h1>
+      <Navbar/>
+      <Banner/>
+     
      
     </div>
   )
