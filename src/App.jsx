@@ -5,6 +5,7 @@ import Success from './layouts/Success'
 import Heading from './components/Heading'
 import SubHeading from './components/SubHeading'
 import Service from './layouts/Service'
+import Agency from './layouts/Agency'
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
       <Banner/>
       <Success/>
       <Service/>
+      <Agency/>
       
 
      
