@@ -2,7 +2,7 @@ import React from 'react'
 
 const ListItem = ({text,className}) => {
   return (
-   <li className={`text-lg text-[#737373] font-normal font-["Inter"] hover:text-[#6A4DF4] hover:font-bold duration-300 cursor-pointer ${className}`}>
+   <li className={`text-lg text-primary font-normal font-inter hover:text-secondary hover:font-bold duration-300 cursor-pointer ${className}`}>
     {text}
     </li>
   )
