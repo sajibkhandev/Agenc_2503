@@ -10,13 +10,13 @@ const Footer = () => {
   return (
     <footer className='pt-150'>
         <Container>
-            <Flex>
-                <div className='w-4/12 '>
+            <Flex className="!block md:!flex px-4 md:px-0">
+                <div className='md:w-4/12 '>
                 <Image src={FooterLogo}/>
                 <SubHeading className='w-[356px] pt-[30px]' text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority."/>
 
                 </div>
-                <div className='w-2/12'>
+                <div className='md:w-2/12'>
                 <strong className='text-xl text-third font-inter font-semibold '>About</strong>
                 <ul className='flex flex-col gap-y-5 mt-10'>
                    <FooterListItem text="About Us"/>
@@ -26,7 +26,7 @@ const Footer = () => {
                   
                 </ul>
                 </div>
-                <div className='w-2/12'>
+                <div className='md:w-2/12'>
                 <strong className='text-xl text-third font-inter font-semibold '>Company</strong>
                 <ul className='flex flex-col gap-y-5 mt-10'>
                    <FooterListItem text="Our Team"/>
@@ -36,7 +36,7 @@ const Footer = () => {
                   
                 </ul>
                 </div>
-                <div className='w-2/12'>
+                <div className='md:w-2/12'>
                 <strong className='text-xl text-third font-inter font-semibold '>About</strong>
                 <ul className='flex flex-col gap-y-5 mt-10'>
                    <FooterListItem text="About Us"/>
@@ -46,7 +46,7 @@ const Footer = () => {
                   
                 </ul>
                 </div>
-                <div className='w-2/12'>
+                <div className='md:w-2/12'>
                 <strong className='text-xl text-third font-inter font-semibold '>About</strong>
                 <ul className='flex flex-col gap-y-5 mt-10'>
                    <FooterListItem text="About Us"/>

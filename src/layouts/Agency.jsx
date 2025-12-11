@@ -12,23 +12,23 @@ const Agency = () => {
   return (
     <section className='pb-[150px]'>
         <Container>
-            <Flex className='items-end'>
-                <div className='w-7/12'>
+            <Flex className='items-end !block md:!flex'>
+                <div className='md:w-7/12'>
                 <Heading className='w-[508px]' text="Why You Should Choose Agenc"/>
                 <SubHeading className='w-[480px] pt-5 pb-[85px]' text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable." />
 
-                <Flex>
+                <Flex className='!block md:!flex'>
                     <AgencyCard image={IconOne} title="Innovative Ideas" text="Because each project is different, we adapt to your business model."/>
                    <AgencyCard className="mt-10" image={IconOne} title="Dedicated Support" text="Because each project is different, we adapt to your business model."/>
                 </Flex>
                 
-                <div className='ml-[200px] mt-[50px]'> 
+                <div className='md:ml-[200px] mt-[50px]'> 
                    <AgencyCard image={IconOne} title="Innovative Ideas" text="Because each project is different, we adapt to your business model."/>
                 </div>
               
 
                 </div>
-                <div className='w-5/12'>
+                <div className='md:w-5/12'>
                 <Image src={AgencyBanner}/>
                 </div>
             </Flex>

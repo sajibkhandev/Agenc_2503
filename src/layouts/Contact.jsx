@@ -9,14 +9,14 @@ const Contact = () => {
   return (
     <section className='bg-[#F3F3F3] py-150'>
         <Container>
-            <Flex className='items-center'>
-                <div className='w-1/2 '>
+            <Flex className='items-center !block md:!flex'>
+                <div className='md:w-1/2 px-3 md:px-0'>
                  <Heading className='w-[450px] pb-5' text="We Do design, Code & Development"/>
-                 <SubHeading className='w-[514px] leading-[26px]' text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority."/>
-                 <SubHeading className='w-[514px] leading-[26px] pt-2.5' text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form."/>
+                 <SubHeading className='md:w-[514px] leading-[26px]' text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority."/>
+                 <SubHeading className='md:w-[514px] leading-[26px] pt-2.5' text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form."/>
                 </div>
-                 <div className='w-1/2'>
-                    <div className='w-[536px]  py-[61px] px-[43px] bg-white rounded-[20px]'>
+                 <div className='md:w-1/2'>
+                    <div className='mx-4 md:mx-0 md:w-[536px]  py-[61px] px-[43px] bg-white rounded-[20px]'>
                         <h4 className='text-[30px] text-third font-bold font-inter text-center mb-[30px]'>Get a free quote now</h4>
                         <label className='text-base text-black font-inter font-meduim' htmlFor="name">Name
                             <input id='name' className='w-full border border-[#E8E8E8] rounded-md py-4 px-6 mt-2.5 mb-5 text-base' type="text" placeholder='Enter your name'/>
